@@ -29,6 +29,6 @@ def get_posts(subreddit_name, number_of_posts, file_path='x'):
         file.write(str(skeleton.format(number, item.ups, item.url, item.title)))
         number += 1
         
-    ### Displaying HTML Document & Clearing Memory###
+    ### Displaying HTML Document & Clearing Memory ###
     file.close()
     webbrowser.open(source,new=2)
