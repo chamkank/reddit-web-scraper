@@ -1,3 +1,7 @@
+'''
+Written by Cham K.
+Date: June 13th 2015
+'''
 import praw
 import tkinter.filedialog
 import webbrowser
